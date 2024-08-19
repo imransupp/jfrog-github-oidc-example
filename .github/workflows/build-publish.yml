@@ -3,13 +3,13 @@ name: "JFrog-GitHub NPM Publish OIDC Integration"
 on:
   push:
     branches:
-      - master
+      - main
       - dev
       - feature/**
       - bug/**
   pull_request:
     branches:
-      - master
+      - main
       - feature/**
       - bug/**
       - release/**
