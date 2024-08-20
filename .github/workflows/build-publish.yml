@@ -38,9 +38,9 @@ jobs:
        - name: Setup JFrog CLI
          uses: jfrog/setup-jfrog-cli@v3
          env:
-             JF_URL: https://teradataio.jfrog.io
+              JF_URL: https://teradataio.jfrog.io
          with:
-            oidc-provider-name: github-jfrog 
+            oidc-provider-name: setup-jfrog-cli 
             oidc-audience: my-aud
 
        - name: Set CLI Config
